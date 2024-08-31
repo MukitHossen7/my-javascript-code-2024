@@ -1,9 +1,9 @@
 //Task 4
 
-let myScore = 85;
-let friendScore = 50;
+let myScore = 90;
+let friendScore = 20;
 
-if (myScore > 80 && friendScore > 0) {
+if (myScore > 80 && friendScore) {
   if (friendScore > 80) {
     console.log("I will go for a lunch");
   } else if (friendScore >= 60 && friendScore < 80) {
