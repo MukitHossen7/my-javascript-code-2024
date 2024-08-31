@@ -1,8 +1,8 @@
-// let weight = 80;
-// let height = 1.71;
+let weight = 80;
+let height = 1.71;
 
-// let bmi = weight / height ** 2; /////// ** 2
-// console.log(bmi.toFixed(2));
+let bmi = weight / (height * height);
+console.log(bmi.toFixed(2));
 
 let BMI = 30.2;
 
