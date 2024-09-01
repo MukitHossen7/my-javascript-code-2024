@@ -1,17 +1,16 @@
-let weight = 80;
-let height = 1.71;
-
+let weight = 100;
+let height = (5.7 * 30) / 100;
 let bmi = weight / (height * height);
 console.log(bmi.toFixed(2));
 
-let BMI = 30.2;
+// let bmi = 30.2;
 
-if (BMI < 18.5) {
+if (bmi < 18.5) {
   console.log("you are underweight");
 } else {
-  if (BMI >= 18.5 && BMI <= 24.9) {
+  if (bmi >= 18.5 && bmi <= 24.9) {
     console.log("you are normal");
-  } else if (BMI >= 25 && BMI <= 29.9) {
+  } else if (bmi >= 25 && bmi <= 29.9) {
     console.log("you are overweight");
   } else {
     console.log("you are obese");
