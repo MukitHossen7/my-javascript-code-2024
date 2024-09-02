@@ -1,16 +1,12 @@
 //Task 3
 
-for (let i = 1; i <= 100; i++) {
-  if (Math.sqrt(i) % 2 === 0) {
-    // Check if 'i' is a square number
-    console.log("First square number encountered:", i);
-    break; // Exit the loop
+const squareNumber = [];
+for (let i = 2; i <= 100; i++) {
+  if (Number.isInteger(Math.sqrt(i))) {
+    console.log(`First square number is: ${i}`);
+    squareNumber.push(i);
   }
-  console.log(i); // Print the current number
+  if (squareNumber.length >= 5) {
+    break;
+  }
 }
-
-/**
- *  Understand this code because you copy ChatGPI
- */
-
-console.log(Math.sqrt(2) % 1 === 0);
