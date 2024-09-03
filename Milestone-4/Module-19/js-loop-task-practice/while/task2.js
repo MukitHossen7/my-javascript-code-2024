@@ -9,3 +9,13 @@ while (num <= 100) {
   }
   num++;
 }
+
+// Subtask-2:
+
+let num2 = 78;
+while (num2 <= 98) {
+  if (num2 % 2 === 0) {
+    console.log(`The even number is ${num2}`);
+  }
+  num2++;
+}
