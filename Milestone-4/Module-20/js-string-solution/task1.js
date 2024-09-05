@@ -1,12 +1,15 @@
-let text = "Jhankar Mahbub";
-console.log(text);
+/*
+ ### Task-1: 
+ Count how many times a string has the letter `a`
+ */
 
-// for (let newText of text) {
-//   console.log(newText);
-//   let text2 = newText.search("a");
-
-//   console.log(text2);
-// }
-
-let ss = text.split("");
-console.log(ss);
+let texts = "Bangladesh is beautiful country";
+let count = 0;
+let isLatter = "a";
+for (let text of texts) {
+  console.log(text);
+  if (text === isLatter) {
+    count++;
+  }
+}
+console.log(count);
