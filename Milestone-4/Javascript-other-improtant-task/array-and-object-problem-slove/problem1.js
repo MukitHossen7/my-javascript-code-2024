@@ -1,3 +1,8 @@
+/*
+Array of Objects
+Problem:Create an array of 3 objects where each object represents a student with properties name, age, and grade.Access the name of the second student.
+*/
+
 const students = [
   { name: "Mukit", age: 24, grade: "A+" },
   { name: "Raju", age: 26, grade: "A" },
