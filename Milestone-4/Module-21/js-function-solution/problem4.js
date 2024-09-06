@@ -6,7 +6,7 @@ Write a function called count_zero() which will take a binary string (Binary str
 function count_zero(numbers) {
   let newString = [];
   for (let number of numbers) {
-    if (number == 0) {
+    if (number === "0") {
       newString.push(number);
     }
   }
