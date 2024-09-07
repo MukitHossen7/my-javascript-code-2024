@@ -24,6 +24,7 @@ sample-output: Programming
 // let sentences = "I am learning Programming to become a programmer";
 // console.log(longestWord(sentences));
 
+//  Step :1
 function longestWord(sentences) {
   const sent = sentences.split(" ");
   let size = sent.length;
@@ -38,3 +39,19 @@ function longestWord(sentences) {
 }
 let texts = "I am learning Programming to become a programmer";
 console.log(longestWord(texts));
+
+//Step : 2
+
+// const input = "I am learning Programming to become programmer";
+// function longestWord(word) {
+//   const array = word.split(" ");
+//   let total = "";
+//   console.log(total.length);
+//   for (let element of array) {
+//     if (element.length > total.length) {
+//       total = element;
+//     }
+//   }
+//   return total;
+// }
+// console.log(longestWord(input));
