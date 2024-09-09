@@ -1,8 +1,8 @@
 function password(obj) {
   if (
-    obj.name === undefined ||
-    obj.birthYear === undefined ||
-    obj.siteName === undefined ||
+    typeof obj.name !== "string" ||
+    typeof obj.birthYear !== "number" ||
+    typeof obj.siteName !== "string" ||
     obj.birthYear.toString().length !== 4
   ) {
     return "invalid";
