@@ -3,10 +3,9 @@ function sendNotification(email) {
     return "Invalid Email";
   }
   let mail = email.split("");
-  let length = mail.length;
   let index = mail.indexOf("@");
   let userName = mail.slice(0, index).join("");
-  let domainName = mail.slice(index + 1, length).join("");
+  let domainName = mail.slice(index + 1).join("");
   let message = `${userName} sent you an email from ${domainName}`;
   return message;
 }
