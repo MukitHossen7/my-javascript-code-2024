@@ -16,3 +16,4 @@ console.log(calculateTax(6000, -1500));
 console.log(calculateTax(2000, 5000));
 console.log(calculateTax(4000, 5000));
 console.log(calculateTax(14000, 5000));
+console.log(calculateTax(0, 0));
