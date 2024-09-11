@@ -9,8 +9,10 @@ function sendNotification(email) {
   let message = `${userName} sent you an email from ${domainName}`;
   return message;
 }
+console.log(sendNotification("zihad hossen @ gmail.com"));
 console.log(sendNotification("zihad@gmail.com"));
 console.log(sendNotification("farhan34@yahoo.com"));
 console.log(sendNotification("nadim.naem5@outlook.com"));
 console.log(sendNotification("fahim234.hotmail.com"));
 console.log(sendNotification("fahim234.hotmail.com"));
+console.log(sendNotification("sadia8icloud.com"));
