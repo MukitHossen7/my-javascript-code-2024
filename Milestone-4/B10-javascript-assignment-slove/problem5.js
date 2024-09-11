@@ -10,6 +10,9 @@ function waitingTime(waitingTimes, serialNumber) {
   let averageInterviewTime = Math.round(totalTime / length);
   let serialNo = serialNumber - 1;
   let interviewPending = serialNo - length;
+  if (interviewPending <= 0) {
+    return 0;
+  }
   let isratWaitingTime = averageInterviewTime * interviewPending;
   return isratWaitingTime;
 }
@@ -20,3 +23,4 @@ console.log(waitingTime([6], 4));
 console.log(waitingTime(7, 10));
 console.log(waitingTime("[6,2]", 9));
 console.log(waitingTime([7, 8, 3, 4, 5], "9"));
+console.log(waitingTime([0], 0));
