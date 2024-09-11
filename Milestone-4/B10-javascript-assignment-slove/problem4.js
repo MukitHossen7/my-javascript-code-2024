@@ -1,6 +1,8 @@
 function calculateFinalScore(obj) {
   if (typeof obj !== "object") {
     return "Invalid Input";
+  } else if (Array.isArray(obj)) {
+    return "Invalid Input";
   }
   let testScore = 0;
   let schoolGrade = 0;
@@ -37,6 +39,8 @@ console.log(
   })
 );
 console.log(calculateFinalScore("hello"));
+console.log(calculateFinalScore(["hello"]));
+console.log(calculateFinalScore([2, 8, 5, 74]));
 console.log(
   calculateFinalScore({
     name: "Rajib",
