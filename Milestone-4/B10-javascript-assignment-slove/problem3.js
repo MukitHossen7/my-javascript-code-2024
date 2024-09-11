@@ -19,5 +19,5 @@ console.log(checkDigitsInName("!@#"));
 console.log(checkDigitsInName(["Raj"]));
 console.log(checkDigitsInName(12345));
 console.log(checkDigitsInName({ name: "mukit", age: 123 }));
-console.log(checkDigitsInName(true));
-console.log(checkDigitsInName(false));
+// console.log(checkDigitsInName(true));
+// console.log(checkDigitsInName(false));
