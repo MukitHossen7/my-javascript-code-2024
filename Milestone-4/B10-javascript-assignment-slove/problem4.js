@@ -4,19 +4,18 @@ function calculateFinalScore(obj) {
   } else if (Array.isArray(obj)) {
     return "Invalid Input";
   }
-  let testScore = 0;
-  let schoolGrade = 0;
+
   let parentProfession = 0;
-  if (obj.testScore <= 50) {
-    testScore = obj.testScore;
+  if (obj.testScore > 50) {
+    return "Invalid Input";
   }
-  if (obj.schoolGrade <= 30) {
-    schoolGrade = obj.schoolGrade;
+  if (obj.schoolGrade > 30) {
+    return "Invalid Input";
   }
   if (obj.isFFamily) {
     parentProfession = 20;
   }
-  let finalResult = testScore + schoolGrade + parentProfession;
+  let finalResult = obj.testScore + obj.schoolGrade + parentProfession;
   if (finalResult >= 80) {
     return true;
   }
@@ -42,6 +41,7 @@ console.log(calculateFinalScore("hello"));
 console.log(calculateFinalScore(["hello"]));
 console.log(calculateFinalScore(20));
 console.log(calculateFinalScore([2, 8, 5, 74]));
+
 console.log(
   calculateFinalScore({
     name: "Rajib",
@@ -50,10 +50,11 @@ console.log(
     isFFamily: true,
   })
 );
+
 console.log(
   calculateFinalScore({
     name: "Rajib",
-    testScore: 51,
+    testScore: 55,
     schoolGrade: 30,
     isFFamily: true,
   })
