@@ -10,7 +10,7 @@ function waitingTime(waitingTimes, serialNumber) {
   let averageInterviewTime = Math.round(totalTime / length);
   let serialNo = serialNumber - 1;
   let interviewPending = serialNo - length;
-  //   let isratWaitingTime = averageInterviewTime * interviewPending;
+  //   let isratWaitingTime = averageInterviewTime * interviewPending; // problem
   let isratWaitingTime =
     interviewPending > 0 ? averageInterviewTime * interviewPending : 0;
   return isratWaitingTime;
