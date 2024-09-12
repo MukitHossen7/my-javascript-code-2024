@@ -51,11 +51,11 @@ function calculateFinalScore(obj) {
 //   })
 // );
 
-// console.log(
-//   calculateFinalScore({
-//     name: "Rajib",
-//     testScore: 55,
-//     schoolGrade: 30,
-//     isFFamily: true,
-//   })
-// );
+console.log(
+  calculateFinalScore({
+    name: "Rajib",
+    testScore: 50,
+    schoolGrade: 30,
+    isFFamily: true,
+  })
+);
