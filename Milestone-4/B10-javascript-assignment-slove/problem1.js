@@ -8,12 +8,12 @@ function calculateTax(income, expenses) {
 }
 
 console.log(calculateTax(10000, 3000));
-console.log(calculateTax(34000, 1753));
-console.log(calculateTax(5000, 1500));
-console.log(calculateTax(7000, 7000));
-console.log(calculateTax(-5000, 2000));
-console.log(calculateTax(6000, -1500));
-console.log(calculateTax(2000, 5000));
-console.log(calculateTax(4000, 5000));
-console.log(calculateTax(14000, 5000));
-console.log(calculateTax(0, 0));
+// console.log(calculateTax(34000, 1753));
+// console.log(calculateTax(5000, 1500));
+// console.log(calculateTax(7000, 7000));
+// console.log(calculateTax(-5000, 2000));
+// console.log(calculateTax(6000, -1500));
+// console.log(calculateTax(2000, 5000));
+// console.log(calculateTax(4000, 5000));
+// console.log(calculateTax(14000, 5000));
+// console.log(calculateTax(0, 0));

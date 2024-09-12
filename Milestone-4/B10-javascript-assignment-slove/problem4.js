@@ -21,41 +21,41 @@ function calculateFinalScore(obj) {
   }
   return false;
 }
-console.log(
-  calculateFinalScore({
-    name: "Rajib",
-    testScore: 45,
-    schoolGrade: 25,
-    isFFamily: true,
-  })
-);
-console.log(
-  calculateFinalScore({
-    name: "Rajib",
-    testScore: 45,
-    schoolGrade: 25,
-    isFFamily: false,
-  })
-);
-console.log(calculateFinalScore("hello"));
-console.log(calculateFinalScore(["hello"]));
-console.log(calculateFinalScore(20));
-console.log(calculateFinalScore([2, 8, 5, 74]));
+// console.log(
+//   calculateFinalScore({
+//     name: "Rajib",
+//     testScore: 45,
+//     schoolGrade: 25,
+//     isFFamily: true,
+//   })
+// );
+// console.log(
+//   calculateFinalScore({
+//     name: "Rajib",
+//     testScore: 45,
+//     schoolGrade: 25,
+//     isFFamily: false,
+//   })
+// );
+// console.log(calculateFinalScore("hello"));
+// // console.log(calculateFinalScore(["hello"]));
+// // console.log(calculateFinalScore(20));
+// // console.log(calculateFinalScore([2, 8, 5, 74]));
 
-console.log(
-  calculateFinalScore({
-    name: "Rajib",
-    testScore: 15,
-    schoolGrade: 25,
-    isFFamily: true,
-  })
-);
+// console.log(
+//   calculateFinalScore({
+//     name: "Rajib",
+//     testScore: 15,
+//     schoolGrade: 25,
+//     isFFamily: true,
+//   })
+// );
 
-console.log(
-  calculateFinalScore({
-    name: "Rajib",
-    testScore: 55,
-    schoolGrade: 30,
-    isFFamily: true,
-  })
-);
+// console.log(
+//   calculateFinalScore({
+//     name: "Rajib",
+//     testScore: 55,
+//     schoolGrade: 30,
+//     isFFamily: true,
+//   })
+// );

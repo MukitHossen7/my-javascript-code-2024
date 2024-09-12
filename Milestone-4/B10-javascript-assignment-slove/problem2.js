@@ -24,4 +24,3 @@ function sendNotification(email) {
 // console.log(sendNotification("sadia8icloud.com"));
 // console.log(sendNotification("@gmail.com"));
 // console.log(sendNotification("zihad"));
-console.log(sendNotification("zihad@@gmail.com"));
