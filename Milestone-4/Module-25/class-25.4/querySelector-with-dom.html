@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Elements By QuerySelector</title>
+  </head>
+  <body>
+    <section>
+      <h1 id="hOne">Javascript DOM is very easy</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum,
+        reiciendis aspernatur aut dolorem quo corrupti, quas magnam atque
+        officiis consequatur dolores necessitatibus non in impedit explicabo id
+        tempore quam nostrum eveniet inventore, unde fugiat eius. Fuga officiis
+        ratione ex rerum.
+      </p>
+    </section>
+    <section>
+      <h1 id="fFruits">My fevarite fruits</h1>
+      <ul>
+        <li class="list">Mangeo</li>
+        <li class="list">Banana</li>
+        <li class="list">Jackfurites</li>
+        <li class="list">Orange</li>
+      </ul>
+    </section>
+    <section>
+      <h1 id="hTwo">Rap song......</h1>
+      <ul>
+        <li class="list-song">Vatica</li>
+        <li class="list-song">James</li>
+        <li class="list-song">Bascu Vai</li>
+      </ul>
+    </section>
+    <section>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, esse!
+      </p>
+      <p id="paraOne">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Necessitatibus, maiores impedit ab ipsa eius assumenda unde aut
+        doloribus iure ipsam. 2
+      </p>
+    </section>
+    <script>
+      const listSong = document.querySelector(".list-song");
+      console.log(listSong);
+      console.log(listSong.innerText);
+      const lists = document.querySelectorAll(".list");
+      console.log(lists);
+      for (let list of lists) {
+        // console.log(list);
+        console.log(list.innerText);
+      }
+      const paraOne = document.querySelector("#paraOne");
+      console.log(paraOne);
+      console.log(paraOne.innerText);
+      const fFruits = document.querySelectorAll("#fFruits");
+      console.log(fFruits);
+      for (let fFruit of fFruits) {
+        console.log(fFruit.innerText);
+      }
+      const para = document.querySelector("p");
+      console.log(para);
+      console.log(para.innerText);
+      const paraAlls = document.querySelectorAll("p");
+      console.log(paraAlls);
+      for (let paraAll of paraAlls) {
+        console.log(paraAll.innerText);
+      }
+    </script>
+  </body>
+</html>
