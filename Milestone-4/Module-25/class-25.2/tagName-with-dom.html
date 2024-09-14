@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Elements by Tag Name</title>
+  </head>
+  <body>
+    <section>
+      <h1>Javascript DOM is very easy</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum,
+        reiciendis aspernatur aut dolorem quo corrupti, quas magnam atque
+        officiis consequatur dolores necessitatibus non in impedit explicabo id
+        tempore quam nostrum eveniet inventore, unde fugiat eius. Fuga officiis
+        ratione ex rerum.
+      </p>
+    </section>
+    <section>
+      <h1>My fevarite fruits</h1>
+      <ul>
+        <li>Mangeo</li>
+        <li>Banana</li>
+        <li>Jackfurites</li>
+        <li>Orange</li>
+      </ul>
+    </section>
+    <section>
+      <h1>Rap song......</h1>
+      <ul>
+        <li>Vatica</li>
+        <li>James</li>
+        <li>Bascu Vai</li>
+      </ul>
+    </section>
+    <section>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, esse!
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Necessitatibus, maiores impedit ab ipsa eius assumenda unde aut
+        doloribus iure ipsam. 2
+      </p>
+    </section>
+    <script>
+      const H1tags = document.getElementsByTagName("h1");
+      console.log(H1tags);
+      for (let tag of H1tags) {
+        console.log(tag.innerText);
+      }
+      const pTags = document.getElementsByTagName("p");
+      console.log(pTags);
+      for (let pTag of pTags) {
+        console.log(pTag.innerText);
+      }
+      const liTags = document.getElementsByTagName("li");
+      console.log(liTags);
+      for (let liTag of liTags) {
+        console.log(liTag.innerText);
+      }
+    </script>
+  </body>
+</html>
