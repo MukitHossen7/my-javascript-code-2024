@@ -1,0 +1,12 @@
+.textAlign {
+  color: red;
+  text-align: center;
+}
+.styleColor {
+  color: yellow;
+  text-align: center;
+}
+.headColor {
+  color: greenyellow;
+  font-size: 45px;
+}
