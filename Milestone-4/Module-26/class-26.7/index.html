@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Bubble</title>
+    <style>
+      #item-2 {
+        border: 2px solid red;
+      }
+      ul {
+        border: 2px solid black;
+      }
+      section {
+        border: 2px solid green;
+      }
+      main {
+        border: 2px solid blue;
+      }
+      body {
+        border: 2px solid yellow;
+      }
+    </style>
+  </head>
+  <body id="body-container">
+    <main id="main-container">
+      <h1>Even bubble</h1>
+      <section id="section-container">
+        <ul id="ul-container">
+          <li id="item-1">About</li>
+          <li id="item-2">Home</li>
+          <li id="item-3">Policy</li>
+          <li id="item-4">Help</li>
+          <li id="item-5">Contact</li>
+        </ul>
+      </section>
+    </main>
+    <script src="event-bubble.js"></script>
+  </body>
+</html>
