@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html id="html" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Expance Calculator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main class="max-w-xs mx-auto mt-44">
+      <div class="mb-5 text-center">
+        <h3 id="totalExpense">Total Expenses: <span id="inputSpan">0</span></h3>
+      </div>
+      <div class="flex gap-5 align-center justify-center">
+        <input
+          type="text"
+          placeholder="Expense"
+          class="input input-bordered input-accent w-full max-w-xs"
+          id="expance"
+        />
+        <input
+          type="number"
+          placeholder="Amount"
+          class="input input-bordered input-success w-full max-w-xs"
+          id="amount"
+        />
+        <button class="btn btn-active btn-accent" id="insertBtn">Insert</button>
+      </div>
+      <div id="showCost">
+        <!-- <div class="flex justify-around mt-3">
+          <p>Meal</p>
+          <p>80</p>
+        </div> -->
+      </div>
+    </main>
+    <script src="expance-claculator.js"></script>
+  </body>
+</html>
