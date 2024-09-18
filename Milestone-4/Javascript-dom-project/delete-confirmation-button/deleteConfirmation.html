@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple github like delete confirmation</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main class="max-w-xs mx-auto mt-20">
+      <h3 id="text">My Secret info</h3>
+      <section class="flex gap-3 mt-3">
+        <input
+          type="text"
+          placeholder="Type here"
+          class="input input-bordered input-accent w-full max-w-xs"
+          id="input-filed"
+        />
+        <button class="btn btn-outline btn-error" id="deleteBtn">Delete</button>
+      </section>
+      <p id="demo"></p>
+    </main>
+    <script src="deleteConfirmation.js"></script>
+  </body>
+</html>
