@@ -29,8 +29,9 @@
             <div class="divider"></div>
             <!-- button-start -->
             <div class="">
-              <button class="btn" id="addBtnFrom">Add Money</button>
-              <button class="btn" id="outBtnFrom">Cash Out</button>
+              <button class="btn" id="addShowBtnFrom">Add Money</button>
+              <button class="btn" id="outShowBtnFrom">Cash Out</button>
+              <button class="btn" id="transactionsShowBtn">Transactions</button>
             </div>
             <!-- button-end -->
             <div class="divider"></div>
@@ -38,7 +39,7 @@
             <!-- Add Money form start -->
             <div
               id="add-form"
-              class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl"
+              class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl"
             >
               <form class="card-body">
                 <div class="form-control">
@@ -79,8 +80,8 @@
 
             <!-- Cash out Money form start -->
             <div
-              id="add-form"
-              class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl"
+              id="out-form"
+              class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl"
             >
               <form class="card-body">
                 <div class="form-control">
@@ -118,6 +119,12 @@
               </form>
             </div>
             <!-- Cash out Money form end -->
+            <div id="history-container" class="hidden">
+              <h1 class="text-2xl text-center font-semibold">
+                Transactions History
+              </h1>
+              <div id="history-section"></div>
+            </div>
           </div>
         </div>
       </div>

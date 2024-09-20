@@ -8,3 +8,11 @@ function getTextValueById(id) {
   let amountNum = parseFloat(amountValue);
   return amountNum;
 }
+function showSectionInClick(id) {
+  document.getElementById("add-form").classList.add("hidden");
+  document.getElementById("out-form").classList.add("hidden");
+  document.getElementById("history-container").classList.add("hidden");
+
+  // show section
+  document.getElementById(id).classList.remove("hidden");
+}
