@@ -1,7 +1,6 @@
 const squareNum = (squarearr) => {
   const newSquareArray = [];
   let sum = 0;
-
   for (let square of squarearr) {
     let squareValue = square ** 2;
     newSquareArray.push(squareValue);
