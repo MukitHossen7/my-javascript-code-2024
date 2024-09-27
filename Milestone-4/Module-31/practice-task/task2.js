@@ -24,3 +24,6 @@ let students = {
     },
   },
 };
+
+console.log(students[2222].address.city);
+console.log(students[3333].name);
