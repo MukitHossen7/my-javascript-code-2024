@@ -9,7 +9,7 @@ const Pet = ({ petObj }) => {
       <p>Age: {age}</p>
       <p>Gender: {gender}</p>
       <p>Price: {price} </p>
-      <p>Vaccinated : {vaccinated}</p>
+      <p>Vaccinated : {vaccinated ? "true " : "false"}</p>
     </div>
   );
 };
