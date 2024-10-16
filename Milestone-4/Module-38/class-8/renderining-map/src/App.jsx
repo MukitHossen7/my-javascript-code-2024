@@ -1,4 +1,5 @@
 import "./App.css";
+import BookStore from "./components/BookStore";
 import Pet from "./components/Pet";
 import Student from "./components/Student";
 
@@ -39,6 +40,28 @@ function App() {
       vaccinated: true,
     },
   ];
+  const books = [
+    {
+      id: 1,
+      name: "Math",
+      price: 300,
+    },
+    {
+      id: 2,
+      name: "Biology",
+      price: 500,
+    },
+    {
+      id: 3,
+      name: "English",
+      price: 150,
+    },
+    {
+      id: 4,
+      name: "Bangla",
+      price: 100.0,
+    },
+  ];
 
   return (
     <>
@@ -50,6 +73,8 @@ function App() {
       {pets.map((pet) => (
         <Pet petObj={pet}></Pet>
       ))}
+
+      <BookStore books={books}></BookStore>
     </>
   );
 }

@@ -1,8 +1,7 @@
 import "../App.css";
 const Pet = ({ petObj }) => {
-  console.log(petObj);
   const { name, breed, age, gender, price, vaccinated } = petObj;
-  console.log(name);
+
   return (
     <div className="petStyle">
       <h3>Name: {name}</h3>
