@@ -6,3 +6,5 @@ console.log(year);
 
 var taka = 10000;
 console.log(taka);
+
+// day 1
