@@ -24,3 +24,5 @@ console.log(num2);
 
 var num3 = num2 + 2 
 var num4 = num3 + 5
+
+var num5 = num4 + 6
