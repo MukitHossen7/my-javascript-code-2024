@@ -23,3 +23,4 @@ num2 %= 2;
 console.log(num2);
 
 var num3 = num2 + 2 
+var num4 = num3 + 5
