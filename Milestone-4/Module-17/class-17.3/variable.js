@@ -8,3 +8,6 @@ var taka = 10000;
 console.log(taka);
 
 // day 1
+
+var text = "hello"
+console.log(text)
