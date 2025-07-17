@@ -21,3 +21,5 @@ console.log(num);
 var num2 = 100;
 num2 %= 2;
 console.log(num2);
+
+var num3 = num2 + 2 
